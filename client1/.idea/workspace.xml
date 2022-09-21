@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="aa755609-0813-4c01-8e2c-b7814263e084" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="26EczlYFiIg5B9hhHcx7b85fB6c" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/project/services/rdp_receiver" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/src/project/services/Hello_Service.java" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="M:\fifth year\graduation\java_core\client1" />
+      <recent name="M:\fifth year\graduation\java_core\client1\src" />
+      <recent name="M:\fifth year\graduation\java_core\client1\src\project\GUI\Login_Signup\sample" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="project.services.shutdown" />
+      <recent name="project.services.handShake" />
+      <recent name="project.services.publicKeys" />
+      <recent name="project.GUI.Login_Signup" />
+      <recent name="project.services.rdp_sender" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="M:\fifth year\graduation\java_core\client1\src\project\services\rdp_receiver" />
+      <recent name="M:\fifth year\graduation\java_core\client1\src" />
+      <recent name="M:\fifth year\graduation\java_core\client1\src\project\GUI" />
+      <recent name="M:\fifth year\graduation\java_core\client1\src\project\services" />
+      <recent name="M:\fifth year\graduation\java_core\client1\src\project" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="project.Main" />
+      <module name="project1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Start_Main_GUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="project.GUI.Main_GUI.Start_Main_GUI" />
+      <module name="project1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="project.GUI.Main_GUI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Start_scroll_GUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="project.GUI.scrollMenu.Start_scroll_GUI" />
+      <module name="project1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="project.GUI.scrollMenu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="project.test" />
+      <module name="project1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="project.aspects.test" />
+      <module name="project1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="project.aspects.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.test" />
+        <item itemvalue="Application.Start_scroll_GUI" />
+        <item itemvalue="Application.test (2)" />
+        <item itemvalue="Application.Start_Main_GUI" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aa755609-0813-4c01-8e2c-b7814263e084" name="Default Changelist" comment="" />
+      <created>1646992450325</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1646992450325</updated>
+      <workItem from="1646992463280" duration="19857000" />
+      <workItem from="1647074334160" duration="9249000" />
+      <workItem from="1647181632528" duration="2901000" />
+      <workItem from="1647238997364" duration="6178000" />
+      <workItem from="1647258892686" duration="6680000" />
+      <workItem from="1647352892593" duration="395000" />
+      <workItem from="1647355727655" duration="58000" />
+      <workItem from="1647442696364" duration="149000" />
+      <workItem from="1647452198037" duration="1129000" />
+      <workItem from="1648637568843" duration="1315000" />
+      <workItem from="1648642207575" duration="9583000" />
+      <workItem from="1649047876606" duration="814000" />
+      <workItem from="1649061355577" duration="1165000" />
+      <workItem from="1649070542144" duration="741000" />
+      <workItem from="1649086208637" duration="2326000" />
+      <workItem from="1649147833529" duration="720000" />
+      <workItem from="1649148791408" duration="757000" />
+      <workItem from="1649258699273" duration="661000" />
+      <workItem from="1649421423151" duration="385000" />
+      <workItem from="1649499302722" duration="3093000" />
+      <workItem from="1649685875699" duration="4142000" />
+      <workItem from="1649742125976" duration="1971000" />
+      <workItem from="1649767194393" duration="4592000" />
+      <workItem from="1649776697076" duration="949000" />
+      <workItem from="1649836524540" duration="2314000" />
+      <workItem from="1649872511859" duration="1949000" />
+      <workItem from="1650007918004" duration="1329000" />
+      <workItem from="1651328041937" duration="5531000" />
+      <workItem from="1651382023590" duration="13488000" />
+      <workItem from="1651470848089" duration="5994000" />
+      <workItem from="1651503311898" duration="5909000" />
+      <workItem from="1651558840131" duration="15819000" />
+      <workItem from="1655351505696" duration="22366000" />
+      <workItem from="1655394061205" duration="1554000" />
+      <workItem from="1655439097577" duration="7505000" />
+      <workItem from="1655458248942" duration="4823000" />
+      <workItem from="1655474227979" duration="4655000" />
+      <workItem from="1655530757060" duration="9237000" />
+      <workItem from="1655561794227" duration="4969000" />
+      <workItem from="1655606661365" duration="5490000" />
+      <workItem from="1655626380814" duration="2092000" />
+      <workItem from="1658388874675" duration="2731000" />
+      <workItem from="1658416022043" duration="4818000" />
+      <workItem from="1658467981204" duration="14553000" />
+      <workItem from="1658557548610" duration="16172000" />
+      <workItem from="1658640011147" duration="749000" />
+      <workItem from="1658644217509" duration="597000" />
+      <workItem from="1658646249097" duration="3107000" />
+      <workItem from="1658670738116" duration="694000" />
+      <workItem from="1658725057435" duration="1838000" />
+      <workItem from="1658739865115" duration="1187000" />
+      <workItem from="1658814183861" duration="6262000" />
+      <workItem from="1658899726772" duration="6037000" />
+      <workItem from="1658984167095" duration="5764000" />
+      <workItem from="1659087324682" duration="2437000" />
+      <workItem from="1659245397350" duration="11096000" />
+      <workItem from="1659333850459" duration="10429000" />
+      <workItem from="1659354896649" duration="10818000" />
+      <workItem from="1659375664198" duration="1588000" />
+      <workItem from="1659415492019" duration="12032000" />
+      <workItem from="1659440652156" duration="9670000" />
+      <workItem from="1659504003272" duration="6956000" />
+      <workItem from="1659594083403" duration="5253000" />
+      <workItem from="1659614026242" duration="8739000" />
+      <workItem from="1659678848065" duration="9786000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

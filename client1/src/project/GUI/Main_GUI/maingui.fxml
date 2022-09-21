@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.Avatar?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.GUI.Main_GUI.MainController">
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+         <left>
+            <AnchorPane prefHeight="646.0" prefWidth="250.0" style="-fx-background-color: #24A9CB;" BorderPane.alignment="CENTER">
+               <children>
+                  <Button alignment="CENTER" layoutY="68.0" minHeight="21.7" minWidth="53.2" mnemonicParsing="false" onAction="#onStartRDPButtonClick" prefHeight="39.0" prefWidth="250.0" style="-fx-background-color: #0B9CDA;" text="Start RDP" textFill="#f7f7f7">
+                     <effect>
+                        <DropShadow blurType="TWO_PASS_BOX" height="5.77" radius="1.3775" width="1.74" />
+                     </effect>
+                     <padding>
+                        <Insets bottom="7.2" left="7.2" right="7.2" top="7.2" />
+                     </padding>
+                     <font>
+                        <Font size="13.3" />
+                     </font>
+                  </Button>
+                  <Button alignment="CENTER" layoutY="118.0" minHeight="39.0" minWidth="53.2" mnemonicParsing="false" onAction="#onSettingsButtonClick" prefHeight="39.0" prefWidth="250.0" style="-fx-background-color: #0B9CDA;" text="Settings" textFill="#f7f7f7">
+                     <effect>
+                        <DropShadow height="5.0" radius="1.0" width="1.0" />
+                     </effect>
+                     <font>
+                        <Font size="13.3" />
+                     </font>
+                     <padding>
+                        <Insets bottom="7.2" left="7.2" right="7.2" top="7.2" />
+                     </padding>
+                  </Button>
+                   <Button alignment="CENTER" layoutY="174.0" minHeight="21.0" minWidth="53.2" mnemonicParsing="false" onAction="#onChatButtonClick" prefHeight="39.0" prefWidth="250.0" style="-fx-background-color: #0B9CDA;" text="Chat" textFill="#f7f7f7">
+                       <effect>
+                           <DropShadow height="1.0" radius="1.0" width="5.0" />
+                       </effect>
+                       <padding>
+                           <Insets bottom="7.2" left="7.2" right="7.2" top="7.2" />
+                       </padding>
+                       <font>
+                           <Font size="13.3" />
+                       </font>
+                   </Button>
+
+                   <TextField fx:id="MyIDField" editable="false" layoutX="69.0" prefHeight="57.0" prefWidth="181.0" style="-fx-background-color: transparent; -fx-text-fill: #000000;" text="">
+                     <font>
+                        <Font name="SansSerif Regular" size="13.3" />
+                     </font>
+                     <padding>
+                        <Insets bottom="4.8" left="4.8" right="4.8" top="4.8" />
+                     </padding>
+                  </TextField>
+                  <Line endX="149.0" layoutX="101.0" layoutY="57.0" startX="-100.0" stroke="#d0aaaa" />
+                  <Avatar layoutX="14.0" layoutY="11.0" />
+               </children>
+            </AnchorPane>
+         </left>
+         <right>
+
+
+            <AnchorPane prefHeight="691.0" prefWidth="748.0" BorderPane.alignment="CENTER">
+               <children>
+
+                  <!-- The Beginning of Logo -->
+                  <ImageView fitHeight="57.0" fitWidth="101.0" layoutX="139.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@resource/cart.png" />
+                     </image>
+                  </ImageView>
+                  <TextField editable="false" layoutX="196.0" layoutY="1.0" prefHeight="57.0" prefWidth="356.0" style="-fx-background-color: transparent; -fx-text-fill: #24A9CB;" text="Remote Desktop Software">
+                     <font>
+                        <Font name="SansSerif Regular" size="13.3" />
+                     </font>
+                     <padding>
+                        <Insets bottom="4.8" left="4.8" right="4.8" top="4.8" />
+                     </padding>
+                  </TextField>
+                  <Text fx:id="UserIDText" fontSmoothingType="LCD" layoutX="128.0" layoutY="146.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User ID" />
+                  <TextField fx:id="UserIDField" layoutX="212.0" layoutY="129.0" />
+                  <Button fx:id="StartConnectionButton" layoutX="230.0" layoutY="230.0" mnemonicParsing="false" onAction="#onStartConnectionButtonClick" style="-fx-background-color: #0B9CDA;" text="Start Connection" textFill="#f7f7fd">
+                     <padding>
+                        <Insets bottom="7.2" left="7.2" right="7.2" top="7.2" />
+                     </padding></Button>
+                  <Label fx:id="invalidStartCredentials" alignment="CENTER" contentDisplay="CENTER" layoutX="211.0" layoutY="181.0" />
+                  <TextField fx:id="SecurityField" editable="false" layoutX="14.0" layoutY="113.0" prefHeight="57.0" prefWidth="356.0" style="-fx-background-color: transparent; -fx-text-fill: #24A9CB;" text="Security" visible="false">
+                     <font>
+                        <Font name="SansSerif Regular" size="13.3" />
+                     </font>
+                     <padding>
+                        <Insets bottom="4.8" left="4.8" right="4.8" top="4.8" />
+                     </padding>
+                  </TextField>
+
+                  <!-- The End of Signup form -->
+                  <RadioButton fx:id="NoSecurityButton" layoutX="40.0" layoutY="213.0" mnemonicParsing="false" text="Without security (warning : it will be fast but there is no data encription )" visible="false">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton fx:id="SecurityButton" layoutX="40.0" layoutY="256.0" mnemonicParsing="false" selected="true" text="medium security" visible="false">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton fx:id="ExtraSecurityButton" layoutX="40.0" layoutY="294.0" mnemonicParsing="false" text="extra security (End to End )" visible="false">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </RadioButton>
+                  <Line fx:id="SecurityLine" endX="253.0" layoutX="117.0" layoutY="170.0" startX="-100.0" stroke="#d0aaaa" visible="false" />
+                  <Line endX="255.0" layoutX="297.0" layoutY="58.0" startX="-100.0" stroke="#d0aaaa" />
+
+
+
+                  <!--chat -->
+                  <Button fx:id="ChatConnectButton" layoutX="418.0" layoutY="101.0" mnemonicParsing="false" onAction="#onChatConnectButtonClick" style="-fx-background-color: #0B9CDA;" text="connect" textFill="#f7f7fd" visible="false" />
+                  <Button fx:id="ChatConnect_toAnotherButton" layoutX="418.0" layoutY="101.0" mnemonicParsing="false" onAction="#onChatConnect_toAnotherButtonClick" style="-fx-background-color: #0B9CDA;" text="connect to another User" textFill="#f7f7fd" visible="false" />
+                  <Label fx:id="ChatLabel" layoutX="287.0" layoutY="142.0" visible="false">
+                     <padding>
+                        <Insets bottom="7.2" left="7.2" right="7.2" top="7.2" />
+                     </padding>
+                  </Label>
+                  <TextField fx:id="ChatUserIDField" layoutX="230.0" layoutY="98.0" prefHeight="31.0" prefWidth="149.0" promptText="User ID" visible="false" />
+
+                  <ScrollPane fx:id="ChatPane" layoutX="25.0" layoutY="173.0" prefHeight="418.0" prefWidth="709.0" visible="false">
+                    <content>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="416.0" prefWidth="701.0">
+                           <children>
+                              <VBox fx:id="ChatBox" prefHeight="415.0" prefWidth="703.0" />
+                           </children>
+                        </AnchorPane>
+                    </content>
+                  </ScrollPane>
+
+                  <TextField fx:id="ChatMessageField" layoutX="25.0" layoutY="601.0" prefHeight="35.0" prefWidth="626.0" visible="false" />
+                  <Button fx:id="ChatMessageSendButton" layoutX="669.0" layoutY="601.0" mnemonicParsing="false" onAction="#onChatSendMessageButtonClick" prefHeight="26.0" prefWidth="65.0" style="-fx-background-color: #0B9CDA;" text="Send" textFill="#f7f7fd" visible="false">
+                     <padding>
+                        <Insets bottom="7.2" left="7.2" right="7.2" top="7.2" />
+                     </padding>
+                  </Button>
+
+
+               </children>
+            </AnchorPane>
+
+
+
+
+
+
+
+         </right>
+
+
+         <!-- Beginning of the bottom part of the Borderpane -->
+         <bottom>
+
+            <!-- Simple Copyright -->
+            <Label prefHeight="17.0" prefWidth="132.0" style="-fx-text-fill: #B9a9a9;" text="Remote Desktot © 2022" BorderPane.alignment="CENTER" />
+         </bottom>
+         <!-- Ending of the left part of the Borderpane -->
+
+
+      </BorderPane>
+   </children>
+</GridPane>

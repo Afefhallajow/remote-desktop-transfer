@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<GridPane alignment="center" hgap="10" layoutY="20.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="80.0" prefWidth="80.0" vgap="10" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.GUI.scrollMenu.ControllerScroll">
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints maxHeight="231.0" minHeight="231.0" prefHeight="231.0" />
+      <RowConstraints maxHeight="0.0" minHeight="0.0" prefHeight="0.0" />
+      <RowConstraints maxHeight="0.0" minHeight="0.0" prefHeight="0.0" />
+      <RowConstraints maxHeight="0.0" minHeight="0.0" prefHeight="0.0" />
+   </rowConstraints>
+    <children>
+      <AnchorPane prefHeight="257.0" prefWidth="130.0">
+         <children>
+             <Button fx:id="TransferFilesButton" alignment="CENTER" minHeight="21.7" minWidth="53.2" mnemonicParsing="false" onAction="#onTransferFilesButtonClick" prefHeight="39.0" prefWidth="113.0" style="-fx-background-color: #0B9CDA;" text="Transfer Files" textFill="#f7f7f7">
+                 <effect>
+                     <DropShadow blurType="TWO_PASS_BOX" height="5.77" radius="1.3775" width="1.74" />
+                 </effect>
+                 <padding>
+                     <Insets bottom="7.2" left="7.2" right="7.2" top="7.2" />
+                 </padding>
+                 <font>
+                     <Font size="13.3" />
+                 </font>
+             </Button>
+             <Button fx:id="ShutdownButton" alignment="CENTER" layoutX="-1.0" layoutY="65.0" minHeight="39.0" minWidth="53.2" mnemonicParsing="false" onAction="#onShutdownButtonClick" prefHeight="39.0" prefWidth="113.0" style="-fx-background-color: #0B9CDA;" text="Shutdown" textFill="#f7f7f7">
+                 <effect>
+                     <DropShadow height="5.0" radius="1.0" width="1.0" />
+                 </effect>
+                 <font>
+                     <Font size="13.3" />
+                 </font>
+                 <padding>
+                     <Insets bottom="7.2" left="7.2" right="7.2" top="7.2" />
+                 </padding>
+             </Button>
+             <Button fx:id="RestartButton" alignment="CENTER" layoutX="-1.0" layoutY="132.0" minHeight="21.0" minWidth="53.2" mnemonicParsing="false" onAction="#onRestartButtonClick" prefHeight="39.0" prefWidth="113.0" style="-fx-background-color: #0B9CDA;" text="Restart" textFill="#f7f7f7">
+                 <effect>
+                     <DropShadow height="1.0" radius="1.0" width="5.0" />
+                 </effect>
+                 <padding>
+                     <Insets bottom="7.2" left="7.2" right="7.2" top="7.2" />
+                 </padding>
+                 <font>
+                     <Font size="13.3" />
+                 </font>
+             </Button>
+             <TextField fx:id="Path1Field" layoutY="84.0" prefHeight="26.0" prefWidth="113.0" visible="false" />
+             <TextField fx:id="Path2Field" layoutY="138.0" prefHeight="26.0" prefWidth="113.0" visible="false" />
+             <TextField fx:id="FileNameField" layoutY="205.0" prefHeight="26.0" prefWidth="113.0" visible="false" />
+             <Text fx:id="Path1Text" layoutX="3.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Path in your pc" visible="false" />
+             <Text fx:id="Path2Text" layoutX="4.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Path in remote pc" visible="false" />
+             <Text fx:id="FileNameText" layoutX="7.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="File name" visible="false" />
+             <Button fx:id="DoTransferButton" alignment="CENTER" layoutX="55.0" layoutY="237.0" minHeight="21.7" minWidth="53.2" mnemonicParsing="false" onAction="#onDoTransferButtonClick" prefHeight="39.0" prefWidth="72.0" style="-fx-background-color: #0B9CDA;" text="Transfer" textFill="#f7f7f7" visible="false">
+                 <effect>
+                     <DropShadow blurType="TWO_PASS_BOX" height="5.77" radius="1.3775" width="1.74" />
+                 </effect>
+                 <padding>
+                     <Insets bottom="7.2" left="7.2" right="7.2" top="7.2" />
+                 </padding>
+                 <font>
+                     <Font size="13.3" />
+                 </font>
+             </Button>
+             <Button fx:id="EndConnection" alignment="CENTER" layoutX="-1.0" layoutY="199.0" minHeight="21.0" minWidth="53.2" mnemonicParsing="false" onAction="#OnEndConnectionButtonClick" prefHeight="39.0" prefWidth="113.0" style="-fx-background-color: #0B9CDA;" text="End Connection" textFill="#f7f7f7">
+                 <effect>
+                     <DropShadow height="1.0" radius="1.0" width="5.0" />
+                 </effect>
+                 <padding>
+                     <Insets bottom="7.2" left="7.2" right="7.2" top="7.2" />
+                 </padding>
+                 <font>
+                     <Font size="13.3" />
+                 </font>
+             </Button>
+         </children>
+      </AnchorPane>
+
+
+
+    </children>
+
+</GridPane>
